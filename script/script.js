@@ -34,4 +34,25 @@ $('#genesis-btn').on('click', ()=> {
 });
 
 
+$('#aupairweb-btn').on('click', ()=> {
+  $('.aupairweb-show-text').slideToggle(1000); 
+  let x=document.getElementById("aupairweb-btn"); 
+  if(x.innerHTML==="Show more"){
+      x.innerHTML = "Show less"; 
+  } else {
+      x.innerHTML = "Show more"; 
+  }
+});
+
+
+$('#sourcandyswimwearshop-btn').on('click', ()=> {
+  $('.sourcandyswimwearshop-show-text').slideToggle(1000); 
+  let x=document.getElementById("sourcandyswimwearshop-btn"); 
+  if(x.innerHTML==="Show more"){
+      x.innerHTML = "Show less"; 
+  } else {
+      x.innerHTML = "Show more"; 
+  }
+});
+
 
